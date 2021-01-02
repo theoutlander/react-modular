@@ -1,0 +1,27 @@
+{
+  "name": "react-modular",
+  "version": "1.0.0",
+  "description": "React Modular UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/theoutlander/react-modular.git"
+  },
+  "keywords": [
+    "extjs",
+    "react",
+    "bootstrap"
+  ],
+  "author": "Nick Karnik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theoutlander/react-modular/issues"
+  },
+  "homepage": "https://github.com/theoutlander/react-modular#readme",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  }
+}
