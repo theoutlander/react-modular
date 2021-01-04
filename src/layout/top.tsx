@@ -18,7 +18,7 @@ export default class Center extends Component {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "pink",
+        backgroundColor: "orange",
       },
     };
 

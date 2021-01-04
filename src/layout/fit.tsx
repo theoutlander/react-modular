@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import _ from "lodash";
 
 type Props = {
   // centered?: boolean;
@@ -11,13 +10,14 @@ export default class Center extends Component {
   };
 
   render() {
-    let style = { height: "100%" };
-    let props = { style, ...this.props };
-    // console.log(props);
+    let style = {
+      style: {
+        height: "100%",
+        width: "100%",
+        backgroundColor: "red",
+      },
+    };
 
-    let result = {};
-    _.assignIn(result, style, props);
-
-    return <div {...result}>{this.props.children}</div>;
+    return <div {...style}>{this.props.children}</div>;
   }
 }

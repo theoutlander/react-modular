@@ -11,7 +11,7 @@ export default class Container extends Component {
 
   render() {
     return (
-      <div className="container" {...this.props}>
+      <div className="container has-centered-texts" {...this.props}>
         {this.props.children}
       </div>
     );

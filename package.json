@@ -28,7 +28,6 @@
 	"dependencies": {
 		"bulma": "^0.9.1",
 		"deepmerge": "^4.2.2",
-		"lodash": "^4.17.20",
 		"react": "^17.0.1"
 	},
 	"devDependencies": {
